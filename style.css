@@ -1,0 +1,66 @@
+.main{
+    display: flex;
+    box-sizing: initial;
+    margin: 0 auto;
+    max-width: 1190px;
+}
+.container{
+   box-shadow: 2px 2px 30px  gray;
+   margin: 10px; 
+   width: 350px;
+   height:500px ;
+   padding: 10px;
+}
+.card-header{
+    background: rgb(124, 91, 91);
+    width: 350px;
+    height: 150px;
+    position: absolute;
+}
+.discription{
+    background: dimgrey;
+    width: 350px;
+    height: 380px;
+    position: absolute;
+    top: 150px;
+    text-align: center;
+
+}
+.discription img{
+    position: absolute;
+    left: 36%;
+    top:-50px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+.discription h3{
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 60px;
+    left: 25%;
+    color: white;
+
+}
+.discription p{
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 110px;
+    color: white;
+    line-height: 30px;
+    padding: 5px;
+    
+
+}
+.discription h5{
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 85px;
+    left: 38%;
+    color: white;
+}
+.container:hover{
+    box-shadow: 5px 5px 35px black;
+}
